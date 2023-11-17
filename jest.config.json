@@ -1,0 +1,33 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "jest-environment-jsdom",
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "roots": [
+    "<rootDir>/src"
+  ],
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx|tsx?)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,ts,tsx}",
+    "!<rootDir>/node_modules/",
+    "!src/__tests__/fileMock.js",
+    "!src/main.tsx"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "statements": 100,
+      "branches": 100,
+      "functions": 100,
+      "lines": 100
+    }
+  }
+}
