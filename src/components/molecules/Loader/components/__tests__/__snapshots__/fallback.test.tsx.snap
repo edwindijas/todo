@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`correctly renders 1`] = `
+exports[`renders snapshot tests correctly 1`] = `
 <div>
   <div
     class="w-full h-full flex items-center justify-center"
   >
-    Hello World
+    Loading...
   </div>
 </div>
 `;

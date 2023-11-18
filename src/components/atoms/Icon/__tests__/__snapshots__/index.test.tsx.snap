@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the main icon renders correctly matches the snapshot 1`] = `
+<div>
+  <div
+    class="bg-black h-34 w-full h-full"
+  >
+    Hello World
+  </div>
+</div>
+`;
