@@ -16,10 +16,12 @@
     "json",
     "node"
   ],
+  "maxWorkers": 50, 
   "collectCoverageFrom": [
-    "src/**/*.{js,jsx,ts,tsx}",
+    "src/**/*.{js?,ts?}",
     "!<rootDir>/node_modules/",
-    "!src/__tests__/fileMock.js",
+    "!src/**/__stories__/*.{js?,ts?}",
+    "!src/**/__tests__/*.{js?,ts?}",
     "!src/main.tsx"
   ],
   "coverageThreshold": {
@@ -29,5 +31,8 @@
       "functions": 100,
       "lines": 100
     }
+  },
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/src/$1"
   }
 }
