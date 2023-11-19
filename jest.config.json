@@ -34,7 +34,7 @@
     }
   },
   "moduleNameMapper": {
-    "^@/(.*)$": "<rootDir>/src/$1",
-    "\\.svg": "<rootDir>/src/__mocks__/svgrMock.js"
+    "\\.svg": "<rootDir>/src/__mocks__/svgrMock.js",
+    "^@/(.*)$": "<rootDir>/src/$1"
   }
 }

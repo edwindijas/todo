@@ -5,7 +5,10 @@ exports[`renders snapshot tests correctly 1`] = `
   <div
     class="w-full h-full flex items-center justify-center"
   >
-    Loading...
+    <iconmock
+      class="w-14 h-14 animate-spin w-full h-full"
+      data-testid="component-atom-icon"
+    />
   </div>
 </div>
 `;

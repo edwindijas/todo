@@ -421,6 +421,25 @@ exports[`Snapshot all icons 1`] = `
         </p>
       </div>
     </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          progress activity
+        </p>
+      </div>
+    </li>
   </ul>
 </div>
 `;
