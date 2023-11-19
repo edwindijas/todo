@@ -1,0 +1,426 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot all icons 1`] = `
+<div>
+  <ul>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          refresh
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          refresh outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          close
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          close outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          settings
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          settings outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          done
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          done outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          expand more
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          expand more outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          check circle
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          check circle outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          menu
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          menu outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          search
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          search outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          arrow back
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          arrow back outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          sort
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          sort outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          unfold more
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <iconmock
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          unfold more outline
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

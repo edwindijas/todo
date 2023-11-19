@@ -7,6 +7,7 @@ export default function Icon ({
   const className = `${importClassName} w-full h-full`
   return <Component
     className={className}
+    data-testid='component-atom-icon'
   />
 }
 

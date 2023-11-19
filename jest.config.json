@@ -22,6 +22,7 @@
     "!<rootDir>/node_modules/",
     "!src/**/__stories__/*.{js?,ts?}",
     "!src/**/__tests__/*.{js?,ts?}",
+    "!src/**/__mocks__/*.{js?,ts?}",
     "!src/main.tsx"
   ],
   "coverageThreshold": {
@@ -33,6 +34,7 @@
     }
   },
   "moduleNameMapper": {
-    "^@/(.*)$": "<rootDir>/src/$1"
+    "^@/(.*)$": "<rootDir>/src/$1",
+    "\\.svg": "<rootDir>/src/__mocks__/svgrMock.js"
   }
 }

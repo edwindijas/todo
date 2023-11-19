@@ -14,9 +14,10 @@
     "test:watch": "jest --collectCoverage=true --watchAll --coverage --config jest.config.json",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "create-icon": "node scripts "
+    "create-icon": "node scripts/create-icon.mjs"
   },
   "dependencies": {
+    "@material-design-icons/svg": "^0.14.13",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "jest-environment-jsdom": "^29.7.0",
     "lodash": "^4.17.21",
@@ -72,7 +73,8 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
-    "vite-plugin-eslint": "^1.8.1"
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-svgr": "^4.2.0"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,html,css,json}": [
