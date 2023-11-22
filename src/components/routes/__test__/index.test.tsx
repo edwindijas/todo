@@ -24,4 +24,30 @@ describe('Router', () => {
       expect(getByText('Page Not Found')).toBeInTheDocument()
     })
   })
+  it ('navigates to dashboard',async () => {
+    const { getByTestId } = getComponent(['/'])
+    await waitFor(() => {
+      expect(getByTestId('page-dashboard')).toBeInTheDocument()
+    })
+  })
+  it ('navigates to board',async () => {
+    const { getByTestId } = getComponent(['/board'])
+    await waitFor(() => {
+      expect(getByTestId('page-board')).toBeInTheDocument()
+    })
+  })
+
+  it ('navigates to todo',async () => {
+    const { getByTestId } = getComponent(['/todo'])
+    await waitFor(() => {
+      expect(getByTestId('page-todo')).toBeInTheDocument()
+    })
+  })
+
+  it ('navigates to calendar',async () => {
+    const { getByTestId } = getComponent(['/calendar'])
+    await waitFor(() => {
+      expect(getByTestId('page-calendar')).toBeInTheDocument()
+    })
+  })
 })

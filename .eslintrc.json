@@ -35,7 +35,8 @@
           "test-*.{ts,tsx}",
           "**/*{.,_}{test,spec}.{ts,tsx}",
           "**/jest.config.ts",
-          "**/jest.setup.ts"
+          "**/jest.setup.ts",
+          "**/test-utils/*.{ts,tsx}"
         ],
         "optionalDependencies": false
       }

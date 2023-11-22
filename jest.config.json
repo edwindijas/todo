@@ -1,6 +1,6 @@
 {
   "preset": "ts-jest",
-  "testEnvironment": "jest-environment-jsdom",
+  "testEnvironment": "jsdom",
   "transform": {
     "^.+\\.tsx?$": "ts-jest"
   },
@@ -34,7 +34,8 @@
     }
   },
   "moduleNameMapper": {
-    "\\.svg": "<rootDir>/src/__mocks__/svgrMock.js",
+    "\\.svg": "<rootDir>/jest/__mocks__/svgrMock.js",
     "^@/(.*)$": "<rootDir>/src/$1"
-  }
+  },
+  "setupFilesAfterEnv": ["./jest/setupTests.ts"]
 }

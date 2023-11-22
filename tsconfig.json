@@ -25,6 +25,7 @@
     },
     "types": ["vite-plugin-svgr/client"]
   },
-  "include": ["src", ".eslintrc.json"],
+  "include": ["src", ".eslintrc.json", "jest/__mocks__", "../../setupTests.ts"],
   "references": [{ "path": "./tsconfig.node.json" }],
+ 
 }

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu matches snapnshot 1`] = `
+<div>
+  <ul
+    class="flex flex-col gap-2"
+  >
+    <li>
+      <a
+        class=" "
+        href="/one"
+      >
+        one
+      </a>
+    </li>
+    <li>
+      <a
+        class=" "
+        href="/two"
+      >
+        two
+      </a>
+    </li>
+    <li>
+      <a
+        class=" "
+        href="/three"
+      >
+        three
+      </a>
+    </li>
+  </ul>
+</div>
+`;

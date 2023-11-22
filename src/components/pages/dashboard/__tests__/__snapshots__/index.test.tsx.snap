@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot correctly 1`] = `
+<div>
+  <div
+    class="h-full flex"
+  >
+    <header>
+      <div
+        class="w-64 border-r border-solid h-full"
+      >
+        <div
+          class="flex p-4 gap-2 items-center"
+        >
+          <div
+            class="w-10 h-10"
+          >
+            <svg
+              class=" w-full h-full"
+              data-testid="component-atom-icon"
+            />
+          </div>
+          <p
+            class="text-lg flex flex-col gap-0 leading-6"
+          >
+            <span>
+              Task
+            </span>
+            <span
+              class="font-bold"
+            >
+              Flow
+            </span>
+          </p>
+        </div>
+        <div />
+        <div
+          class="p-2"
+        >
+          <ul
+            class="flex flex-col gap-2"
+          >
+            <li>
+              <a
+                class=" "
+                href="/todo"
+              >
+                ToDo
+              </a>
+            </li>
+            <li>
+              <a
+                class=" "
+                href="/calendar"
+              >
+                Calendar
+              </a>
+            </li>
+            <li>
+              <a
+                class=" "
+                href="/board"
+              >
+                Board
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div>
+      <div
+        data-testid="page-dashboard"
+      >
+        Dashboard Coming Soon
+      </div>
+    </div>
+  </div>
+</div>
+`;

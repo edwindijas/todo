@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button matches snapshot 1`] = `
+<div>
+  <a
+    aria-current="page"
+    class="someGEneric  active"
+    href="/"
+  >
+    Button 1
+  </a>
+  <a
+    aria-current="page"
+    class="someGeneric  active"
+    href="/"
+  >
+    Button 1
+  </a>
+  <a
+    class=" "
+    href="/"
+  >
+    Button 3
+  </a>
+  <button
+    class=" "
+    data-testid="button-btn"
+  >
+    Button 1
+  </button>
+  <button
+    class="someGEneric "
+    data-testid="button-btn"
+  >
+    Button 1
+  </button>
+</div>
+`;

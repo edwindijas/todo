@@ -21,5 +21,6 @@ export default  [
  "SortOutline",
  "UnfoldMore",
  "UnfoldMoreOutline",
- "ProgressActivity"
+ "ProgressActivity",
+ "Logo"
 ]

@@ -53,7 +53,7 @@ IconHolder.defaultProps = {
 
 export default {
   component: IconHolder,
-  title: 'Atoms/Icon',
+  title: 'Components/Atoms/Icon',
   argTypes: {
     icon: {
       control: 'select', 

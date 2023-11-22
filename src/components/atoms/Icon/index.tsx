@@ -1,22 +1,30 @@
-import propTypes, { type InferProps } from 'prop-types'
+import React from 'react'
 
-export default function Icon ({
-  component: Component,
-  className: importClassName
-}: InferProps<typeof Icon.propTypes>): JSX.Element {
+interface IconProps {
+  component: React.FunctionComponent<any> | keyof JSX.IntrinsicElements,
+  className?: string
+}
+
+const Icon =  ({
+  component,
+  className: importClassName = ''
+}: IconProps): JSX.Element => {
   const className = `${importClassName} w-full h-full`
+
+  let Component = component
+
+  if (typeof Component === 'string') {
+    Component = PsuedoComp
+  }
+
   return <Component
     className={className}
     data-testid='component-atom-icon'
   />
 }
 
-Icon.propTypes = {
-  component: propTypes.func.isRequired,
-  className: propTypes.string
-}
+const PsuedoComp = (props: any): JSX.Element => <svg {...props} />
 
-Icon.defaultProps = {
-  className: ''
-}
+export default Icon
+
 

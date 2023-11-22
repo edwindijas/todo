@@ -3,7 +3,7 @@ import { type ComponentType, lazy } from 'react'
 import type {Meta} from '@storybook/react'
 import Component from '..'
 
-const LOAD_TIME = 20000
+const LOAD_TIME = 100000
 
 const meta: Meta<typeof Component> = {
   component: Component,
