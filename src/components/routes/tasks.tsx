@@ -1,9 +1,9 @@
 import { type RouteObject } from 'react-router-dom'
-import TodoPage from '@/components/pages/todo/Loadable'
+import TodoPage from '@/components/pages/tasks/Loadable'
 
 export const todoRoutes: RouteObject[] = [
   {
-    path: '/todo',
+    path: '/tasks',
     element: <TodoPage />
   }
 ]

@@ -4,12 +4,16 @@ interface PageWrapperProps {
   children: React.ReactElement | string
 }
 
+
+
 const PageWrapper = ({
   children
-}: PageWrapperProps): JSX.Element => <div className='h-full flex' >
+}: PageWrapperProps): JSX.Element => <div className='h-full flex bg-bg' >
     <Header />
-    <div >
-      {children}
+    <div className='w-full h-full'  >
+      <div>
+        {children}
+      </div>
     </div>
   </div>
 

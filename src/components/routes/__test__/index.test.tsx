@@ -38,9 +38,9 @@ describe('Router', () => {
   })
 
   it ('navigates to todo',async () => {
-    const { getByTestId } = getComponent(['/todo'])
+    const { getByTestId } = getComponent(['/tasks'])
     await waitFor(() => {
-      expect(getByTestId('page-todo')).toBeInTheDocument()
+      expect(getByTestId('page-tasks')).toBeInTheDocument()
     })
   })
 

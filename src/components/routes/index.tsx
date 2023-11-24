@@ -2,7 +2,7 @@ import { type RouteObject } from 'react-router-dom'
 import PageNotFound from '@/components/pages/PageNotFound/Loadable'
 import Dashboard from '../pages/dashboard/Loadable'
 
-import todoRoutes from './todo'
+import todoRoutes from './tasks'
 import calendarRoutes from './calendar'
 import boardRoutes from './board'
 

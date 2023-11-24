@@ -459,6 +459,234 @@ exports[`Snapshot all icons 1`] = `
         </p>
       </div>
     </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          task alt
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          task alt outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          calendar month
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          calendar month outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          view week
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          view week outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          groups
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          groups outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          dashboard
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          dashboard outline
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          add
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="w-16"
+      >
+        <div
+          class="bg-[#eee] p-2 h-16 w-16 rounded-md border-2 border-solid border-[#ccc]"
+        >
+          <svg
+            class="fill-[#444] w-full h-full"
+            data-testid="component-atom-icon"
+          />
+        </div>
+        <p
+          class="text-sm w-full text-center py-2 font-bold capitalize"
+        >
+          add outline
+        </p>
+      </div>
+    </li>
   </ul>
 </div>
 `;

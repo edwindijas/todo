@@ -22,5 +22,17 @@ export default  [
  "UnfoldMore",
  "UnfoldMoreOutline",
  "ProgressActivity",
- "Logo"
+ "Logo",
+ "TaskAlt",
+ "TaskAltOutline",
+ "CalendarMonth",
+ "CalendarMonthOutline",
+ "ViewWeek",
+ "ViewWeekOutline",
+ "Groups",
+ "GroupsOutline",
+ "Dashboard",
+ "DashboardOutline",
+ "Add",
+ "AddOutline"
 ]

@@ -1,5 +1,5 @@
 import { cva, type VariantProps } from 'class-variance-authority'
-import Button from '@/components/atoms/Button'
+import MenuItem, {type MenuItemProps} from './components/MenuItem';
 
 const getTypeClassName = cva('', {
   variants: {
@@ -19,21 +19,15 @@ const getTypeClassName = cva('', {
   ],
   defaultVariants: {
     orientation: 'vertical',
-    gap: 'sm'
+    gap: 'none'
   }
 })
 
 export type ButtonVariantProps = VariantProps<typeof getTypeClassName>;
 
-export type MenuItem = string | {
-  startIcon?: React.ReactElement,
-  endIcon?: React.ReactElement,
-  label: string,
-  to: string
-}
 
 interface MenuProps extends ButtonVariantProps {
-  items: MenuItem[],
+  items: Array<MenuItemProps | string>,
   isNavLink?: boolean
 }
 
@@ -44,21 +38,19 @@ const Menu = ({
 }: MenuProps): JSX.Element => <ul
   className={getTypeClassName({orientation})} >
     {
-      items.map((item: MenuItem) => {
-          const label = typeof item === 'string' ? item : item.label
-          const to = typeof item === 'string' ? item : item.to
+      items.map((item: MenuItemProps | string) => {
+          const menuProps: MenuItemProps = typeof item === 'string' ? {
+            label: item,
+            to: item
+          } : item
+
           return <li
-            key={label} >
-              <Button
-                isNavLink={isNavLink}
-                isLink to={to}
-              >{ label }</Button>
+            key={menuProps.label} >
+              <MenuItem isNavLink={isNavLink} {...menuProps} />
           </li>
         }
       )
     }
   </ul> 
-
-
 
 export default Menu

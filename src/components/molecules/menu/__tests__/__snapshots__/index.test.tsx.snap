@@ -3,30 +3,130 @@
 exports[`Menu matches snapnshot 1`] = `
 <div>
   <ul
-    class="flex flex-col gap-2"
+    class="flex flex-col"
   >
     <li>
       <a
-        class=" "
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
         href="/one"
       >
-        one
+        <span
+          class="w-full"
+        >
+          one
+        </span>
       </a>
     </li>
     <li>
       <a
-        class=" "
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
         href="/two"
       >
-        two
+        <span
+          class="w-full"
+        >
+          two
+        </span>
       </a>
     </li>
     <li>
       <a
-        class=" "
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
         href="/three"
       >
-        three
+        <span
+          class="w-full"
+        >
+          three
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
+        href="/Bingo"
+      >
+        <div
+          class="shrink-0 h-6 w-6"
+        >
+          <p>
+            Start
+          </p>
+        </div>
+        <span
+          class="w-full"
+        >
+          Hello
+        </span>
+        <div>
+          <p>
+            Start
+          </p>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <ul
+    class="flex flex-col"
+  >
+    <li>
+      <a
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        href="/one"
+      >
+        <span
+          class="w-full"
+        >
+          one
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        href="/two"
+      >
+        <span
+          class="w-full"
+        >
+          two
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        href="/three"
+      >
+        <span
+          class="w-full"
+        >
+          three
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        href="/Bingo"
+      >
+        <div
+          class="shrink-0 h-6 w-6"
+        >
+          <p>
+            Start
+          </p>
+        </div>
+        <span
+          class="w-full"
+        >
+          Hello
+        </span>
+        <div>
+          <p>
+            Start
+          </p>
+        </div>
       </a>
     </li>
   </ul>

@@ -3,76 +3,201 @@
 exports[`Renders snapshot correctly 1`] = `
 <div>
   <div
-    class="h-full flex"
+    class="h-full flex bg-bg"
   >
     <header>
       <div
-        class="w-64 border-r border-solid h-full"
+        class="w-64 h-full bg-white relative"
       >
-        <div
-          class="flex p-4 gap-2 items-center"
-        >
+        <div>
           <div
-            class="w-10 h-10"
+            class="flex py-4 px-6 gap-2 items-center"
           >
-            <svg
-              class=" w-full h-full"
-              data-testid="component-atom-icon"
-            />
-          </div>
-          <p
-            class="text-lg flex flex-col gap-0 leading-6"
-          >
-            <span>
-              Task
-            </span>
-            <span
-              class="font-bold"
+            <div
+              class="w-8 h-8"
             >
-              Flow
-            </span>
-          </p>
-        </div>
-        <div />
-        <div
-          class="p-2"
-        >
-          <ul
-            class="flex flex-col gap-2"
+              <svg
+                class=" fill-blue-dark w-full h-full"
+                data-testid="component-atom-icon"
+              />
+            </div>
+            <p
+              class="text-md text-blue-dark flex flex-col gap-0 leading-4"
+            >
+              <span>
+                TASK
+              </span>
+              <span
+                class="font-extrabold"
+              >
+                SPACE
+              </span>
+            </p>
+          </div>
+          <div />
+          <div
+            class="p-4"
           >
-            <li>
-              <a
-                class=" "
-                href="/todo"
-              >
-                ToDo
-              </a>
-            </li>
-            <li>
-              <a
-                class=" "
-                href="/calendar"
-              >
-                Calendar
-              </a>
-            </li>
-            <li>
-              <a
-                class=" "
-                href="/board"
-              >
-                Board
-              </a>
-            </li>
-          </ul>
+            <ul
+              class="flex flex-col"
+            >
+              <li>
+                <a
+                  aria-current="page"
+                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md bg-blue-light text-blue-medium fill-blue-medium relative before:absolute before:top-2 before:bottom-2 before:left-0 before:bg-blue-medium before:w-1 before:block before:rounded-sm"
+                  href="/"
+                >
+                  <div
+                    class="shrink-0 h-6 w-6"
+                  >
+                    <svg
+                      class=" w-full h-full"
+                      data-testid="component-atom-icon"
+                    />
+                  </div>
+                  <span
+                    class="w-full"
+                  >
+                    dashboard
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  href="/tasks"
+                >
+                  <div
+                    class="shrink-0 h-6 w-6"
+                  >
+                    <svg
+                      class=" w-full h-full"
+                      data-testid="component-atom-icon"
+                    />
+                  </div>
+                  <span
+                    class="w-full"
+                  >
+                    tasks
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  href="/calendar"
+                >
+                  <div
+                    class="shrink-0 h-6 w-6"
+                  >
+                    <svg
+                      class=" w-full h-full"
+                      data-testid="component-atom-icon"
+                    />
+                  </div>
+                  <span
+                    class="w-full"
+                  >
+                    calendar
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  href="/board"
+                >
+                  <div
+                    class="shrink-0 h-6 w-6"
+                  >
+                    <svg
+                      class=" w-full h-full"
+                      data-testid="component-atom-icon"
+                    />
+                  </div>
+                  <span
+                    class="w-full"
+                  >
+                    board
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  href="/project-settings"
+                >
+                  <div
+                    class="shrink-0 h-6 w-6"
+                  >
+                    <svg
+                      class=" w-full h-full"
+                      data-testid="component-atom-icon"
+                    />
+                  </div>
+                  <span
+                    class="w-full"
+                  >
+                    project-settings
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  href="/members"
+                >
+                  <div
+                    class="shrink-0 h-6 w-6"
+                  >
+                    <svg
+                      class=" w-full h-full"
+                      data-testid="component-atom-icon"
+                    />
+                  </div>
+                  <span
+                    class="w-full"
+                  >
+                    members
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="px-6 absolute bottom-4 w-full"
+        >
+          <a
+            class="w-full justify-center flex capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-12 rounded-md"
+            href="/"
+          >
+            <div
+              class="shrink-0 h-6 w-6 absolute top-0 bottom-0 my-auto left-4"
+            >
+              <svg
+                class=" w-full h-full"
+                data-testid="component-atom-icon"
+              />
+            </div>
+            <span
+              class="w-full"
+            >
+              New Tasks
+            </span>
+          </a>
         </div>
       </div>
     </header>
-    <div>
-      <div
-        data-testid="page-dashboard"
-      >
-        Dashboard Coming Soon
+    <div
+      class="w-full h-full"
+    >
+      <div>
+        <div
+          data-testid="page-dashboard"
+        >
+          Dashboard Coming Soon
+        </div>
       </div>
     </div>
   </div>
