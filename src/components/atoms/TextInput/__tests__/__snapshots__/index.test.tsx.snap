@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput maatches snapshot 1`] = `
+<div>
+  <label
+    class="flex  border border-blue-medium h-12"
+  >
+    <span>
+      Hello
+    </span>
+    <input
+      class="block outline-none bg-none px-4 h-12"
+      placeholder="Hello"
+      value=""
+    />
+  </label>
+  <label
+    class="flex  border border-blue-medium h-12"
+  >
+    <span>
+      lab
+    </span>
+    <span>
+      A
+    </span>
+    <input
+      class="block outline-none bg-none px-4 h-12"
+      placeholder="Hello"
+      value=""
+    />
+    <span>
+      A
+    </span>
+  </label>
+</div>
+`;
