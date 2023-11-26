@@ -1,8 +1,6 @@
 import { fireEvent, render } from '@testing-library/react'
 import TextInput from '..'
 
-
-
 describe('TextInput', () => {
   it ('maatches snapshot', () => {
     const {container} = render(<>
@@ -13,7 +11,7 @@ describe('TextInput', () => {
   })
 
   it ('Changes the value according', () => {
-    const onChange = jest.fn((val: string): void => { void(val) })
+    const onChange = jest.fn((): void => {})
     const {getByPlaceholderText} = render(<TextInput placeholder='test-placeholder' onChange={onChange} label='bigger' />)
     const node = getByPlaceholderText('test-placeholder') as HTMLInputElement
     

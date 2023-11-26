@@ -14,18 +14,17 @@ const TextInput = ({
   const [value, setValue] = useState<string>('')
   const inputRef = useRef<HTMLInputElement | null>(null)
   const changeValue = useCallback(({target: {value: inputValue}}: React.ChangeEvent<HTMLInputElement>): void => {
-    onChange !== undefined && onChange(inputValue)
+    onChange?.(inputValue)
     setValue(inputValue)
   }, [])
 
   const setFocus = useCallback((): void => {
-    onFocus !== undefined && onFocus()
+    onFocus?.()
   }, [])
 
   return <label onClick={setFocus}
     className={ `${className}  ${TextInputVariants(variantProps)}`}
   >
-    
     { 
       startIcon !== undefined && 
       <div className='w-7 shrink-0' >{startIcon}</div>
