@@ -2,8 +2,6 @@
 
 import colors from './src/components/atoms/theme/colors'
 
-
-
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -18,6 +16,9 @@ export default {
         'blue-desaturated': '#4D4D59'
       }
     },
+  },
+  corePlugins: {
+    preflight: true
   },
   plugins: [],
 }

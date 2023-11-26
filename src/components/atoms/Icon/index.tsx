@@ -1,15 +1,12 @@
+import { type VariantProps, cva } from 'class-variance-authority'
 import React from 'react'
-
-interface IconProps {
-  component: React.FunctionComponent<any> | keyof JSX.IntrinsicElements,
-  className?: string
-}
 
 const Icon =  ({
   component,
-  className: importClassName = ''
+  className: importClassName = '',
+  ...variants
 }: IconProps): JSX.Element => {
-  const className = `${importClassName} w-full h-full`
+  const className = `${importClassName} ${IconVariants(variants)}`
 
   let Component = component
 
@@ -24,6 +21,26 @@ const Icon =  ({
 }
 
 const PsuedoComp = (props: any): JSX.Element => <svg {...props} />
+
+
+const IconVariants= cva('', {
+  variants: {
+    fillContainer: {
+      true: 'w-full h-full',
+      false: ''
+    }
+  },
+  defaultVariants: {
+    fillContainer: true
+  }
+})
+
+type IconVariantProps = VariantProps<typeof IconVariants>
+
+interface IconProps extends IconVariantProps {
+  component: React.FunctionComponent<any> | keyof JSX.IntrinsicElements,
+  className?: string
+}
 
 export default Icon
 

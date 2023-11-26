@@ -34,5 +34,7 @@ export default  [
  "Dashboard",
  "DashboardOutline",
  "Add",
- "AddOutline"
+ "AddOutline",
+ "ExpandCircleDown",
+ "ExpandCircleDownOutline"
 ]

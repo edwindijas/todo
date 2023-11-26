@@ -7,6 +7,7 @@ const TextInput = ({
   endIcon,
   onChange,
   onFocus,
+  className,
   placeholder,
   ...variantProps
 }: InputProps): JSX.Element => {
@@ -21,52 +22,72 @@ const TextInput = ({
     onFocus !== undefined && onFocus()
   }, [])
 
-  return <label onClick={setFocus} className={TextInputVariants(variantProps)}>
-    <span >{label}</span>
-    {
-      startIcon !== undefined && startIcon
+  return <label onClick={setFocus}
+    className={ `${className}  ${TextInputVariants(variantProps)}`}
+  >
+    
+    { 
+      startIcon !== undefined && 
+      <div className='w-7 shrink-0' >{startIcon}</div>
     }
-    <input
-      className={InputElementVariants(variantProps)}
-      placeholder={placeholder}
-      value={value}
-      ref={inputRef}
-      onChange={changeValue}
-    />
-    {endIcon !== undefined && endIcon}
+    <div className='relative' >
+      <span className={labelVariants({...variantProps, activeOpacity: Boolean(value)})} >{label}</span>
+      <input
+        className={InputElementVariants(variantProps)}
+        placeholder={placeholder}
+        value={value}
+        ref={inputRef}
+        onChange={changeValue}
+      />
+    </div>
+    
+    { 
+      endIcon !== undefined &&
+      <div className='w-7 shrink-0' >{endIcon}</div>
+    }
   </label>
 }
 
 
-const TextInputVariants = cva('flex ', {
+const TextInputVariants = cva('flex relative cursor-text', {
   variants: {
     intent: {
-      primary: 'border border-blue-medium'
+      primary: 'border-blue-medium',
+      secondary: 'border-[#A6B7D0] bg-[#F4F8FC]  fill-blue-desaturated '
     },
-    border: {
+    outline: {
+      true: 'border',
+      false: ''
+    },
+    rounded: {
       none: '',
-      default: ''
+      sm: 'rounded-sm',
+      md: 'rounded-md',
+      lg: 'rounded-lg',
+      full: 'rounded-full'
     },
     size: {
       sm: '',
       md: 'h-12',
       lg: ''
+    },
+    padding: {
+      sm: 'px-2',
+      md: 'px-4',
+      lg: 'px-6'
     }
   },
   defaultVariants: {
     size: 'md',
     intent: 'primary',
-    border: 'default'
+    outline: true,
+    rounded: 'lg',
+    padding: 'sm'
   }
 })
 
-const InputElementVariants = cva('block outline-none bg-none', {
+const InputElementVariants = cva('block outline-none w-full h-full bg-transparent', {
   variants: {
-    padding: {
-      sm: 'px-2',
-      md: 'px-4',
-      lg: 'px-6'
-    },
     size: {
       sm: '',
       md: 'h-12',
@@ -74,20 +95,37 @@ const InputElementVariants = cva('block outline-none bg-none', {
     }
   },
   defaultVariants: {
-    padding: 'md',
     size: 'md'
+  }
+})
+
+const labelVariants = cva('absolute flex top-0 bottom-0 left-0 items-center', {
+  variants: {
+    intent: {
+      primary: 'text-blue-medium',
+      secondary: 'text-blue-desaturated'
+    },
+    activeOpacity: {
+      true: 'opacity-0',
+      false: 'opacity-100'
+    }
+  },
+  defaultVariants: {
+    intent: 'primary'
   }
 })
 
 
 type TextInputProps = VariantProps<typeof TextInputVariants>
 type InputElementProps = VariantProps<typeof InputElementVariants>
+type LabelVariantsProps = VariantProps<typeof labelVariants>
 
-export interface InputProps extends TextInputProps, InputElementProps {
+export interface InputProps extends TextInputProps, InputElementProps, LabelVariantsProps {
   label: string
   startIcon?: React.ReactElement
   endIcon?: React.ReactElement
   placeholder?: string
+  className?: string
   onChange?: (value: string) => void,
   onFocus?: () => void
 }
