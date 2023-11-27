@@ -1,15 +1,17 @@
 interface ButtonProps {
   children: React.ReactElement | string,
   className: string,
-  onClick?: () => void
+  onClick?: () => void,
+  dataTestId: string
 }
 
  const Button = ({
   className,
   children,
-  onClick
+  onClick,
+  dataTestId
 }: ButtonProps): JSX.Element =>
-  <button data-testid='button-btn' onClick={onClick} className={className}>
+  <button data-testid={dataTestId} onClick={onClick} className={className}>
     {children}
   </button>
 

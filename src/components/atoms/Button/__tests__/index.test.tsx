@@ -11,6 +11,7 @@ describe ('button', () => {
       <Button isNavLink className='someGeneric' >Button 1</Button>
       <Button isLink >Button 3</Button>
       <Button >Button 1</Button>
+      <Button dataTestId='btn-test-id' >Button 1</Button>
       <Button className='someGEneric' >Button 1</Button>
     </>)
 

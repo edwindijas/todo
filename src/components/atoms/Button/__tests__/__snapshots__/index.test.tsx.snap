@@ -45,6 +45,16 @@ exports[`button matches snapshot 1`] = `
     </span>
   </button>
   <button
+    class=" flex capitalize items-center gap-2 relative px-2 h-12 rounded-md"
+    data-testid="btn-test-id"
+  >
+    <span
+      class="w-full"
+    >
+      Button 1
+    </span>
+  </button>
+  <button
     class="someGEneric flex capitalize items-center gap-2 relative px-2 h-12 rounded-md"
     data-testid="button-btn"
   >

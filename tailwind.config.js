@@ -1,7 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-import colors from './src/components/atoms/theme/colors'
-
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {

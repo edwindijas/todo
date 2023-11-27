@@ -10,6 +10,7 @@ const Button = ({
   children,
   startIcon,
   endIcon,
+  dataTestId = 'button-btn',
   onClick,
   ...variants
 }: ButtonProps): JSX.Element => {
@@ -18,6 +19,7 @@ const Button = ({
   return <Component to={to}
     isNavLink={isNavLink}
     onClick={onClick}
+    dataTestId={dataTestId}
     className={`${className} ${buttonVariants(variants)}`} >
       <>
         {startIcon !== undefined &&
@@ -110,7 +112,8 @@ interface ButtonProps extends ButtonVariantProps, IconVariantProps {
   children: React.ReactElement | string
   onClick?: () => void,
   startIcon?: React.ReactElement,
-  endIcon?: React.ReactElement
+  endIcon?: React.ReactElement,
+  dataTestId?: string
 }
 
 export default Button

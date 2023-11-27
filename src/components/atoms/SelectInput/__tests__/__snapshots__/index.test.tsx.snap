@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Input Matches snapshot 1`] = `
+<div>
+  <div
+    role="select"
+  >
+    <button
+      class=" flex capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-12 rounded-md"
+      data-testid="btn-toggle-select"
+    >
+      <span
+        class="w-full"
+      >
+        <p>
+          Hello World
+        </p>
+      </span>
+      <div>
+        <svg
+          class=" w-full h-full"
+          data-testid="component-atom-icon"
+        />
+      </div>
+    </button>
+    <ul>
+      <li
+        role="select-option"
+      >
+        <div
+          class=""
+        >
+          Wowo
+        </div>
+      </li>
+      <li
+        role="select-option"
+      >
+        <div
+          class=""
+        >
+          Hey
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div
+    role="select"
+  >
+    <button
+      class=" flex capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-12 rounded-md"
+      data-testid="btn-toggle-select"
+    >
+      <span
+        class="w-full"
+      >
+        <p>
+          Hello World
+        </p>
+      </span>
+      <div>
+        <svg
+          class=" w-full h-full"
+          data-testid="component-atom-icon"
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;

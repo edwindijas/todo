@@ -18,11 +18,12 @@
   ],
   "maxWorkers": 50, 
   "collectCoverageFrom": [
-    "src/**/*.{js?,ts?}",
+    "src/**/*.{js,jsx,ts,tsx}",
     "!<rootDir>/node_modules/",
     "!src/**/__stories__/*.{js?,ts?}",
     "!src/**/__tests__/*.{js?,ts?}",
     "!src/**/__mocks__/*.{js?,ts?}",
+    "!src/utils/*.{js,jsx,ts,tsx}",
     "!src/main.tsx"
   ],
   "coverageThreshold": {
