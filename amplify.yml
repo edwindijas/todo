@@ -7,6 +7,8 @@ frontend:
     build:
       commands:
         - npm run build
+        - npm run build-storybook
+        - mv ./storybook-static ./dist/storybook
   artifacts:
     baseDirectory: dist
     files:
