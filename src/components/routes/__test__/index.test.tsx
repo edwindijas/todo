@@ -7,14 +7,12 @@ import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import {routes} from ".."
 
 
-
 const getComponent = (initialEntries: string[]): RenderResult =>{
   const router = createMemoryRouter(routes, {
     initialEntries,
   })
   return render(<RouterProvider router={router} />)
 }
-  
 
 
 describe('Router', () => {

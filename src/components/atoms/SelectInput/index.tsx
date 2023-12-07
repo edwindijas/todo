@@ -31,6 +31,4 @@ interface SelectProps  {
   options?: SelectOptionItem[]
 }
 
-
-
 export default SelectInput

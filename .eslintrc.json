@@ -27,6 +27,11 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
     "import/extensions": "off",
+    "no-multiple-empty-lines": ["error",
+      {
+        "max": 2
+      }
+    ],
     "import/no-extraneous-dependencies": [
       "error",
       {

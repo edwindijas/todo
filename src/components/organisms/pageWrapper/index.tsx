@@ -4,8 +4,6 @@ interface PageWrapperProps {
   children: React.ReactElement | string
 }
 
-
-
 const PageWrapper = ({
   children
 }: PageWrapperProps): JSX.Element => <div className='h-full flex bg-bg' >
