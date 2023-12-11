@@ -7,7 +7,7 @@ exports[`Renders snapshot correctly 1`] = `
   >
     <header>
       <div
-        class="w-64 h-full bg-white relative"
+        class=" w-52 h-full bg-white relative"
       >
         <div>
           <div
@@ -24,13 +24,15 @@ exports[`Renders snapshot correctly 1`] = `
             <p
               class="text-md text-blue-dark flex flex-col gap-0 leading-4"
             >
-              <span>
-                TASK
+              <span
+                class="uppercase"
+              >
+                task
               </span>
               <span
-                class="font-extrabold"
+                class="font-extrabold uppercase"
               >
-                SPACE
+                space
               </span>
             </p>
           </div>
@@ -38,10 +40,10 @@ exports[`Renders snapshot correctly 1`] = `
             class="px-4 pt-4"
           >
             <label
-              class="  flex relative cursor-text border-[#A6B7D0] bg-[#F4F8FC]  fill-blue-desaturated  border rounded-full h-12 px-2"
+              class="undefined  flex relative cursor-text border-[#A6B7D0] bg-[#F4F8FC]  fill-blue-desaturated  border rounded-full h-8 px-2 capitalize"
             >
               <div
-                class="w-7 shrink-0"
+                class="shrink-0 w-5"
               >
                 <svg
                   class=" w-full h-full"
@@ -52,12 +54,12 @@ exports[`Renders snapshot correctly 1`] = `
                 class="relative"
               >
                 <span
-                  class="absolute flex top-0 bottom-0 left-0 items-center text-blue-desaturated opacity-100"
+                  class="absolute flex top-0 bottom-0 left-0 items-center text-blue-desaturated opacity-100 text-sm"
                 >
-                  Search
+                  search
                 </span>
                 <input
-                  class="block outline-none w-full h-full bg-transparent h-12"
+                  class="block outline-none w-full h-full bg-transparent h-10"
                   value=""
                 />
               </div>
@@ -96,9 +98,9 @@ exports[`Renders snapshot correctly 1`] = `
             class="px-6 font-bold flex flex-col gap-3 border-t-2 border-b py-3 border-bg"
           >
             <p
-              class="text-sm text-blue-medium"
+              class="text-sm text-blue-medium capitalize"
             >
-              Projects
+              projects
             </p>
             <div
               class="flex justify-between items-center"
@@ -117,7 +119,7 @@ exports[`Renders snapshot correctly 1`] = `
             </div>
           </div>
           <div
-            class="p-4"
+            class="p-4 text-sm"
           >
             <ul
               class="flex flex-col"
@@ -178,7 +180,7 @@ exports[`Renders snapshot correctly 1`] = `
                   <span
                     class="w-full"
                   >
-                    board
+                    scope
                   </span>
                 </a>
               </li>
@@ -198,7 +200,7 @@ exports[`Renders snapshot correctly 1`] = `
                   <span
                     class="w-full"
                   >
-                    project-settings
+                    project settings
                   </span>
                 </a>
               </li>
@@ -243,7 +245,7 @@ exports[`Renders snapshot correctly 1`] = `
             <span
               class="w-full"
             >
-              New Tasks
+              new tasks
             </span>
           </a>
         </div>

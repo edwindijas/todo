@@ -1,4 +1,5 @@
 import { cva, type VariantProps } from 'class-variance-authority'
+import { isString } from 'lodash';
 import MenuItem, {type MenuItemProps} from './components/MenuItem';
 
 const getTypeClassName = cva('', {
@@ -45,7 +46,7 @@ const Menu = ({
           } : item
 
           return <li
-            key={menuProps.label} >
+            key={isString(menuProps.label) ? menuProps.label : menuProps.label.id} >
               <MenuItem isNavLink={isNavLink} {...menuProps} />
           </li>
         }

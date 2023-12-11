@@ -2,7 +2,7 @@ import '@testing-library/jest-dom/jest-globals';
 import '@testing-library/jest-dom';
 
 import {render, waitFor, type RenderResult} from '@testing-library/react'
-
+import {IntlProvider} from 'react-intl'
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import {routes} from ".."
 
@@ -11,7 +11,9 @@ const getComponent = (initialEntries: string[]): RenderResult =>{
   const router = createMemoryRouter(routes, {
     initialEntries,
   })
-  return render(<RouterProvider router={router} />)
+  return render(<IntlProvider locale='en-gb' >
+      <RouterProvider router={router} />
+  </IntlProvider>)
 }
 
 

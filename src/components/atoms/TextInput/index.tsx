@@ -1,5 +1,7 @@
 import { type VariantProps, cva } from 'class-variance-authority'
+import { isString } from 'lodash'
 import {useCallback, useState, useRef } from 'react'
+import { FormattedMessage, type MessageDescriptor } from 'react-intl'
 
 const TextInput = ({
   label,
@@ -27,10 +29,14 @@ const TextInput = ({
   >
     { 
       startIcon !== undefined && 
-      <div className='w-7 shrink-0' >{startIcon}</div>
+      <div className={iconVariants(variantProps)} >{startIcon}</div>
     }
     <div className='relative' >
-      <span className={labelVariants({...variantProps, activeOpacity: Boolean(value)})} >{label}</span>
+      <span className={labelVariants({...variantProps, activeOpacity: Boolean(value)})} >
+        {
+          isString(label) ? label : <FormattedMessage {...label} />
+        }
+      </span>
       <input
         className={InputElementVariants(variantProps)}
         placeholder={placeholder}
@@ -66,7 +72,7 @@ const TextInputVariants = cva('flex relative cursor-text', {
       full: 'rounded-full'
     },
     size: {
-      sm: '',
+      sm: 'h-8',
       md: 'h-12',
       lg: ''
     },
@@ -74,6 +80,9 @@ const TextInputVariants = cva('flex relative cursor-text', {
       sm: 'px-2',
       md: 'px-4',
       lg: 'px-6'
+    },
+    capitalizeLabel: {
+      true: 'capitalize'
     }
   },
   defaultVariants: {
@@ -88,7 +97,7 @@ const TextInputVariants = cva('flex relative cursor-text', {
 const InputElementVariants = cva('block outline-none w-full h-full bg-transparent', {
   variants: {
     size: {
-      sm: '',
+      sm: 'h-10',
       md: 'h-12',
       lg: ''
     }
@@ -107,6 +116,11 @@ const labelVariants = cva('absolute flex top-0 bottom-0 left-0 items-center', {
     activeOpacity: {
       true: 'opacity-0',
       false: 'opacity-100'
+    },
+    size: {
+      sm: 'text-sm',
+      md: 'text-md',
+      lg: 'text-lg'
     }
   },
   defaultVariants: {
@@ -114,13 +128,24 @@ const labelVariants = cva('absolute flex top-0 bottom-0 left-0 items-center', {
   }
 })
 
+const iconVariants = cva('shrink-0', {
+  variants: {
+    size: {
+      sm: 'w-5',
+      md: 'w-7',
+      lg: 'w-10'
+    }
+  }
+})
+
 
 type TextInputProps = VariantProps<typeof TextInputVariants>
 type InputElementProps = VariantProps<typeof InputElementVariants>
 type LabelVariantsProps = VariantProps<typeof labelVariants>
+type IconVariantsProps = VariantProps<typeof iconVariants>
 
-export interface InputProps extends TextInputProps, InputElementProps, LabelVariantsProps {
-  label: string
+export interface InputProps extends TextInputProps, InputElementProps, LabelVariantsProps, IconVariantsProps {
+  label: string | MessageDescriptor
   startIcon?: React.ReactElement
   endIcon?: React.ReactElement
   placeholder?: string

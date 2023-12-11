@@ -1,3 +1,4 @@
+import { type MessageDescriptor } from 'react-intl'
 import SearchIcon from '@/components/atoms/Icon/Search'
 import TextInput, { type InputProps } from '@/components/atoms/TextInput'
 
@@ -9,7 +10,7 @@ const SearchInput = ({
 <TextInput label={label} {...props} intent={intent} startIcon={<SearchIcon />} />
 
 interface SearchInputProps extends Omit<InputProps, 'label'> {
-  label?: string
+  label?: string | MessageDescriptor
 }
 
 export default SearchInput

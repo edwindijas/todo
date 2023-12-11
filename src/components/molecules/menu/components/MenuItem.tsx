@@ -1,9 +1,11 @@
+import { FormattedMessage, type MessageDescriptor } from 'react-intl'
+import { isString } from 'lodash'
 import Button from '@/components/atoms/Button'
 
 export interface MenuItemProps {
   startIcon?: React.ReactElement,
   endIcon?: React.ReactElement,
-  label: string,
+  label: string | MessageDescriptor,
   to: string
   isNavLink?: boolean
 }
@@ -21,6 +23,8 @@ const MenuItem = ({
   isLink to={to}
   endIcon={endIcon}
   padding='lg'
->{ label }</Button>
+>
+  { isString(label) ? label : <FormattedMessage {...label} /> }
+</Button>
 
 export default MenuItem

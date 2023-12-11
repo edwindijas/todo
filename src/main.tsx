@@ -4,6 +4,7 @@ import '@/styles/app.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import routes from '@/components/routes'
 import getFaviconURL from './utils/favicon'
+import Internalization from './Internalization'
 
 const root = document.getElementById('root')
 const router = createBrowserRouter(routes)
@@ -40,7 +41,9 @@ if (window?.matchMedia('(prefers-color-scheme: dark)').matches) {
 if (root !== null) {
   ReactDOM.createRoot(root).render(
     <React.StrictMode>
-      <RouterProvider router={router} />
+      <Internalization >
+        <RouterProvider router={router} />
+      </Internalization>
     </React.StrictMode>,
   )  
 }
