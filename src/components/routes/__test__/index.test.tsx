@@ -16,7 +16,6 @@ const getComponent = (initialEntries: string[]): RenderResult =>{
   </IntlProvider>)
 }
 
-
 describe('Router', () => {
   it ('shows 404 page on error', async () => {
     const { getByText } = getComponent(['/pagenotfound'])
