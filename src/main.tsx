@@ -2,9 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import '@/styles/app.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Provider } from 'react-redux'
 import routes from '@/components/routes'
 import getFaviconURL from './utils/favicon'
 import Internalization from './Internalization'
+import store from './store'
 
 const root = document.getElementById('root')
 const router = createBrowserRouter(routes)
@@ -41,9 +43,11 @@ if (window?.matchMedia('(prefers-color-scheme: dark)').matches) {
 if (root !== null) {
   ReactDOM.createRoot(root).render(
     <React.StrictMode>
-      <Internalization >
-        <RouterProvider router={router} />
-      </Internalization>
+      <Provider store={store} >
+        <Internalization >
+          <RouterProvider router={router} />
+        </Internalization>
+      </Provider>
     </React.StrictMode>,
   )  
 }
