@@ -37,11 +37,11 @@ const Button = ({
   </Component>
 }
 
-const buttonVariants = cva(['flex capitalize items-center gap-2 relative'], {
+const buttonVariants = cva(['flex w-full capitalize items-center gap-2 relative'], {
   variants: {
     intent: {
       none: '',
-      primary: 'text-center',
+      primary: 'text-center text-white bg-blue-medium',
       secondary: 'text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium'
     },
     padding: {
@@ -51,7 +51,7 @@ const buttonVariants = cva(['flex capitalize items-center gap-2 relative'], {
     },
     size: {
       lg: '',
-      md: 'h-12',
+      md: 'h-14',
       sm: ''
     },
     isNavLink: {

@@ -36,5 +36,11 @@ export default  [
  "Add",
  "AddOutline",
  "ExpandCircleDown",
- "ExpandCircleDownOutline"
+ "ExpandCircleDownOutline",
+ "Mail",
+ "MailOutline",
+ "Key",
+ "KeyOutline",
+ "Visibility",
+ "VisibilityOutline"
 ]

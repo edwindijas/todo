@@ -7,7 +7,7 @@ exports[`Menu matches snapnshot 1`] = `
   >
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md"
         href="/one"
       >
         <span
@@ -19,7 +19,7 @@ exports[`Menu matches snapnshot 1`] = `
     </li>
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md"
         href="/two"
       >
         <span
@@ -31,7 +31,7 @@ exports[`Menu matches snapnshot 1`] = `
     </li>
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md"
         href="/three"
       >
         <span
@@ -43,7 +43,7 @@ exports[`Menu matches snapnshot 1`] = `
     </li>
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md"
         href="/Bingo"
       >
         <div
@@ -71,7 +71,7 @@ exports[`Menu matches snapnshot 1`] = `
   >
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
         href="/one"
       >
         <span
@@ -83,7 +83,7 @@ exports[`Menu matches snapnshot 1`] = `
     </li>
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
         href="/two"
       >
         <span
@@ -95,7 +95,7 @@ exports[`Menu matches snapnshot 1`] = `
     </li>
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
         href="/three"
       >
         <span
@@ -107,7 +107,7 @@ exports[`Menu matches snapnshot 1`] = `
     </li>
     <li>
       <a
-        class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+        class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
         href="/Bingo"
       >
         <div

@@ -3,49 +3,49 @@
 exports[`TextInput maatches snapshot 1`] = `
 <div>
   <label
-    class="undefined  flex relative cursor-text border-blue-medium border rounded-lg h-12 px-2"
+    class="undefined  flex relative cursor-text border-blue-medium border rounded-lg h-14 px-4"
   >
     <div
-      class="relative"
+      class="relative w-full"
     >
       <span
-        class="absolute flex top-0 bottom-0 left-0 items-center text-blue-medium opacity-100"
+        class="absolute flex top-0 bottom-0 left-0 items-center px-2 text-blue-medium opacity-100"
       >
         Hello
       </span>
       <input
-        class="block outline-none w-full h-full bg-transparent h-12"
+        class="block outline-none w-full h-full bg-transparent px-2 h-12"
         placeholder="Hello"
         value=""
       />
     </div>
   </label>
   <label
-    class="undefined  flex relative cursor-text border-blue-medium border rounded-lg h-12 px-2"
+    class="undefined  flex relative cursor-text border-blue-medium border rounded-lg h-14 px-4"
   >
     <div
-      class="shrink-0"
+      class="shrink-0 grow-0 flex justify-center items-center"
     >
       <span>
         A
       </span>
     </div>
     <div
-      class="relative"
+      class="relative w-full"
     >
       <span
-        class="absolute flex top-0 bottom-0 left-0 items-center text-blue-medium opacity-100"
+        class="absolute flex top-0 bottom-0 left-0 items-center px-2 text-blue-medium opacity-100"
       >
         lab
       </span>
       <input
-        class="block outline-none w-full h-full bg-transparent h-12"
+        class="block outline-none w-full h-full bg-transparent px-2 h-12"
         placeholder="Hello"
         value=""
       />
     </div>
     <div
-      class="w-7 shrink-0"
+      class="shrink-0 grow-0 flex justify-center items-center"
     >
       <span>
         A

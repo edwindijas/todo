@@ -6,7 +6,7 @@ exports[`Select Input Matches snapshot 1`] = `
     role="select"
   >
     <button
-      class=" flex capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-12 rounded-md"
+      class=" flex w-full capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-14 rounded-md"
       data-testid="btn-toggle-select"
     >
       <span
@@ -48,7 +48,7 @@ exports[`Select Input Matches snapshot 1`] = `
     role="select"
   >
     <button
-      class=" flex capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-12 rounded-md"
+      class=" flex w-full capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-14 rounded-md"
       data-testid="btn-toggle-select"
     >
       <span

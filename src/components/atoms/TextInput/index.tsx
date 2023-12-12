@@ -31,7 +31,7 @@ const TextInput = ({
       startIcon !== undefined && 
       <div className={iconVariants(variantProps)} >{startIcon}</div>
     }
-    <div className='relative' >
+    <div className='relative w-full' >
       <span className={labelVariants({...variantProps, activeOpacity: Boolean(value)})} >
         {
           isString(label) ? label : <FormattedMessage {...label} />
@@ -48,7 +48,7 @@ const TextInput = ({
     
     { 
       endIcon !== undefined &&
-      <div className='w-7 shrink-0' >{endIcon}</div>
+      <div className={iconVariants(variantProps)} >{endIcon}</div>
     }
   </label>
 }
@@ -58,7 +58,7 @@ const TextInputVariants = cva('flex relative cursor-text', {
   variants: {
     intent: {
       primary: 'border-blue-medium',
-      secondary: 'border-[#A6B7D0] bg-[#F4F8FC]  fill-blue-desaturated '
+      secondary: 'border-[#DCE2ED] bg-[#F9FBFD] fill-blue-desaturated'
     },
     outline: {
       true: 'border',
@@ -73,11 +73,11 @@ const TextInputVariants = cva('flex relative cursor-text', {
     },
     size: {
       sm: 'h-8',
-      md: 'h-12',
+      md: 'h-14',
       lg: ''
     },
     padding: {
-      sm: 'px-2',
+      sm: 'px-4',
       md: 'px-4',
       lg: 'px-6'
     },
@@ -94,7 +94,7 @@ const TextInputVariants = cva('flex relative cursor-text', {
   }
 })
 
-const InputElementVariants = cva('block outline-none w-full h-full bg-transparent', {
+const InputElementVariants = cva('block outline-none w-full h-full bg-transparent px-2', {
   variants: {
     size: {
       sm: 'h-10',
@@ -107,7 +107,7 @@ const InputElementVariants = cva('block outline-none w-full h-full bg-transparen
   }
 })
 
-const labelVariants = cva('absolute flex top-0 bottom-0 left-0 items-center', {
+const labelVariants = cva('absolute flex top-0 bottom-0 left-0 items-center px-2', {
   variants: {
     intent: {
       primary: 'text-blue-medium',
@@ -128,12 +128,12 @@ const labelVariants = cva('absolute flex top-0 bottom-0 left-0 items-center', {
   }
 })
 
-const iconVariants = cva('shrink-0', {
+const iconVariants = cva('shrink-0 grow-0 flex justify-center items-center', {
   variants: {
     size: {
-      sm: 'w-5',
-      md: 'w-7',
-      lg: 'w-10'
+      sm: 'w-5 h-5',
+      md: 'w-7 h-7',
+      lg: 'w-10 h-10'
     }
   }
 })

@@ -40,10 +40,10 @@ exports[`Renders snapshot correctly 1`] = `
             class="px-4 pt-4"
           >
             <label
-              class="undefined  flex relative cursor-text border-[#A6B7D0] bg-[#F4F8FC]  fill-blue-desaturated  border rounded-full h-8 px-2 capitalize"
+              class="undefined  flex relative cursor-text border-[#DCE2ED] bg-[#F9FBFD] fill-blue-desaturated border rounded-full h-8 px-4 capitalize"
             >
               <div
-                class="shrink-0 w-5"
+                class="shrink-0 grow-0 flex justify-center items-center w-5 h-5"
               >
                 <svg
                   class=" w-full h-full"
@@ -51,15 +51,15 @@ exports[`Renders snapshot correctly 1`] = `
                 />
               </div>
               <div
-                class="relative"
+                class="relative w-full"
               >
                 <span
-                  class="absolute flex top-0 bottom-0 left-0 items-center text-blue-desaturated opacity-100 text-sm"
+                  class="absolute flex top-0 bottom-0 left-0 items-center px-2 text-blue-desaturated opacity-100 text-sm"
                 >
                   search
                 </span>
                 <input
-                  class="block outline-none w-full h-full bg-transparent h-10"
+                  class="block outline-none w-full h-full bg-transparent px-2 h-10"
                   value=""
                 />
               </div>
@@ -74,7 +74,7 @@ exports[`Renders snapshot correctly 1`] = `
               <li>
                 <a
                   aria-current="page"
-                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md bg-blue-light text-blue-medium fill-blue-medium relative before:absolute before:top-2 before:bottom-2 before:left-0 before:bg-blue-medium before:w-1 before:block before:rounded-sm"
+                  class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md bg-blue-light text-blue-medium fill-blue-medium relative before:absolute before:top-2 before:bottom-2 before:left-0 before:bg-blue-medium before:w-1 before:block before:rounded-sm"
                   href="/"
                 >
                   <div
@@ -126,7 +126,7 @@ exports[`Renders snapshot correctly 1`] = `
             >
               <li>
                 <a
-                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
                   href="/tasks"
                 >
                   <div
@@ -146,7 +146,7 @@ exports[`Renders snapshot correctly 1`] = `
               </li>
               <li>
                 <a
-                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
                   href="/calendar"
                 >
                   <div
@@ -166,7 +166,7 @@ exports[`Renders snapshot correctly 1`] = `
               </li>
               <li>
                 <a
-                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
                   href="/board"
                 >
                   <div
@@ -186,7 +186,7 @@ exports[`Renders snapshot correctly 1`] = `
               </li>
               <li>
                 <a
-                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
                   href="/project-settings"
                 >
                   <div
@@ -206,7 +206,7 @@ exports[`Renders snapshot correctly 1`] = `
               </li>
               <li>
                 <a
-                  class=" flex capitalize items-center gap-2 relative px-4 h-12 rounded-md text-blue-desaturated fill-blue-desaturated"
+                  class=" flex w-full capitalize items-center gap-2 relative px-4 h-14 rounded-md text-blue-desaturated fill-blue-desaturated"
                   href="/members"
                 >
                   <div
@@ -231,7 +231,7 @@ exports[`Renders snapshot correctly 1`] = `
           class="px-6 absolute bottom-4 w-full"
         >
           <a
-            class="w-full justify-center flex capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-12 rounded-md"
+            class="w-full justify-center flex w-full capitalize items-center gap-2 relative text-center border border-blue-medium bg-blue-light text-blue-medium fill-blue-medium px-2 h-14 rounded-md"
             href="/"
           >
             <div
